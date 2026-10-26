@@ -31,7 +31,6 @@ RUN chmod +x bin/qemu-system-x86_64 bin/qemu-img
 RUN bun run build
 
 ENV NODE_ENV=production
-ENV LD_LIBRARY_PATH=/app/lib
 ENV PORT=10000
 
 EXPOSE 10000
