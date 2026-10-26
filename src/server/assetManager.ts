@@ -394,7 +394,7 @@ targetVirtIO: string,
 ): Promise<void> {
 const tmpBuild = path.join(
 os.tmpdir(),
-rd_build_${Date.now()},
+`rd_build_${Date.now()}`,
 );
 
 try {
